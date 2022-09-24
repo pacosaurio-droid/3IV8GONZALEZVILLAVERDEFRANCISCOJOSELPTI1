@@ -1,0 +1,33 @@
+/*
+Programa para calcular el promedio de una clase 
+ Author: Francisco Jose Gonzalez Villaverde 
+ */
+import java.util.Scanner;
+
+class holanegros{
+    public static void main(String[] args){
+    //Inputt
+    int num1;
+	int num2;
+	int num3;
+	int num4;
+	int num5;
+    Scanner leer=new Scanner(Sysrem.in);
+
+
+
+
+    //Process
+    System.out.println("Bienvenido al programa de promedios");
+    System.out.println("Ingrese por favor los promedios de los 5 alumnos para poder sacar el promedio del grupo");
+    num1 ,num2 ,num3 ,num4 ,num5 = leer.nextInt();
+
+    promedio=( num1 + num2 + num3 + num4 + num5)/5;
+    
+
+
+    //Output 
+    System.out.println("El promedio del gripo es de "+promedio);
+
+    }
+}
